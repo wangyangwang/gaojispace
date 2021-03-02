@@ -7,12 +7,12 @@
   </head>
   <body style="text-align: center">
     <canvas id="unity-canvas" style="width: 960px; height: 600px; background: #231F20"></canvas>
-    <script src="Build/gaojispace build.loader.js"></script>
+    <script src="Build/gaojispace_build.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/gaojispace build.data.gz",
-        frameworkUrl: "Build/gaojispace build.framework.js.gz",
-        codeUrl: "Build/gaojispace build.wasm.gz",
+        dataUrl: "Build/gaojispace_build.data",
+        frameworkUrl: "Build/gaojispace_build.framework.js",
+        codeUrl: "Build/gaojispace_build.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "gaojitemple",
